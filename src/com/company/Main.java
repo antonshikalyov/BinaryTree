@@ -6,17 +6,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-    BinaryTree myTree = new BinaryTree(7,                                                 //          7
-                                new BinaryTree(3,                                        //        /     \
-                                            new BinaryTree(2,                           //        3       9
-                                                        new BinaryTree(1), null), //        / \     / \
-                                            new BinaryTree(5,                         //        2   5   8   10
-                                                        new BinaryTree(4),           //        /  /  \       \
-                                                        new BinaryTree(6)))         //        1  4    6       11
-                                ,new BinaryTree(9,
-                                            new BinaryTree(8),
-                                            new BinaryTree(10, null,
-                                                        new BinaryTree(11))));
+    BinaryTree myTree = new BinaryTree(7,                                             //     7
+                            new BinaryTree(3,                                        //   /     \
+                                        new BinaryTree(2,                           //   3       9
+                                                    new BinaryTree(1), null), //   / \     / \
+                                        new BinaryTree(5,                         //   2   5   8   10
+                                                    new BinaryTree(4),           //   /  /  \       \
+                                                    new BinaryTree(6)))         //   1  4    6       11
+                            ,new BinaryTree(9,
+                                        new BinaryTree(8),
+                                        new BinaryTree(10, null,
+                                                    new BinaryTree(11))));
 
         System.out.println("Рекурсивный обход дерева: ");
         myTree.recursiceTree();
