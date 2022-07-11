@@ -9,7 +9,7 @@ public class Main {
     BinaryTree myTree = new BinaryTree(7,                                             //     7
                             new BinaryTree(3,                                        //   /     \
                                         new BinaryTree(2,                           //   3       9
-                                                    new BinaryTree(1), null), //   / \     / \
+                                                    new BinaryTree(1), null),      //   / \     / \
                                         new BinaryTree(5,                         //   2   5   8   10
                                                     new BinaryTree(4),           //   /  /  \       \
                                                     new BinaryTree(6)))         //   1  4    6       11
